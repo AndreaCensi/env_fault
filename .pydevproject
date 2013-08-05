@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse-pydev version="1.0"?>
+
+<pydev_project>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">env_fault</pydev_property>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
+<pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
+<path>/env_fault/src/compmake/src</path>
+<path>/env_fault/src/conf_tools/src</path>
+<path>/env_fault/src/contracts/src</path>
+<path>/env_fault/src/geometry/src</path>
+<path>/env_fault/src/procgraph/src</path>
+<path>/env_fault/src/quickapp/src</path>
+<path>/env_fault/src/reprep/src</path>
+<path>/env_fault/src/astatsa/src</path>
+<path>/env_fault/src/rcl/src</path>
+<path>/env_fault/src/dvs_loc/src</path>
+<path>/env_fault/src/dvs_loc/src</path>
+<path>/env_fault/src/astatsa/src</path>
+<path>/env_fault/src/boot_agents/src</path>
+<path>/env_fault/src/boot_olympics/src</path>
+<path>/env_fault/src/compmake/src</path>
+<path>/env_fault/src/conf_tools/src</path>
+<path>/env_fault/src/contracts/src</path>
+<path>/env_fault/src/dvs_loc/src</path>
+<path>/env_fault/src/geometry/src</path>
+<path>/env_fault/src/latex_gen/src</path>
+<path>/env_fault/src/procgraph/src</path>
+<path>/env_fault/src/quickapp/src</path>
+<path>/env_fault/src/rcl/src</path>
+<path>/env_fault/src/reprep/src</path>
+<path>/env_fault/src/ros_node_utils/src</path>
+<path>/env_fault/src/rosstream2boot/src</path>
+<path>/env_fault/src/vehicles/src</path>
+<path>/env_fault/src/yc1304/src</path>
+<path>/env_fault/src/rawlogs/src</path>
+<path>/env_fault/src/decent_logs/src</path>
+<path>/env_fault/src/comptests/src</path>
+<path>/env_fault/src/system_cmd/src</path>
+<path>/env_fault/src/hdflogs/src</path>
+</pydev_pathproperty>
+</pydev_project>

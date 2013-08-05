@@ -1,0 +1,104 @@
+
+- dir: .
+  url: git@github.com:AndreaCensi/env_fault.git
+
+- dir: src/latex_gen
+  url: git@github.com:AndreaCensi/latex_gen.git
+  branch: env_fault
+
+- dir: src/contracts
+  url: git@github.com:AndreaCensi/contracts.git
+  branch: env_fault
+
+- dir: src/compmake
+  url: git@github.com:AndreaCensi/compmake.git
+  branch: env_fault
+
+- dir: src/geometry
+  url: git@github.com:AndreaCensi/geometry.git
+  branch: env_fault
+
+- dir: src/procgraph
+  url: git@github.com:AndreaCensi/procgraph.git
+  branch: env_fault
+
+- dir: src/reprep
+  url: git@github.com:AndreaCensi/reprep.git
+  branch: env_fault
+
+- dir: src/conf_tools
+  url: git@github.com:AndreaCensi/conf_tools.git
+  branch: env_fault
+
+- dir: src/boot_olympics
+  url: git@github.com:AndreaCensi/boot_olympics.git
+  branch: env_fault
+
+- dir: src/rosstream2boot
+  url: git@github.com:AndreaCensi/rosstream2boot.git
+  branch: env_fault
+
+- dir: src/ros_node_utils
+  url: git@github.com:AndreaCensi/ros_node_utils.git
+  branch: env_fault
+
+- dir: src/bvapps
+  url: git@github.com:AndreaCensi/bvapps.git
+  branch: env_fault
+
+- dir: src/vehicles
+  url: git@github.com:AndreaCensi/vehicles.git
+  branch: env_fault
+
+- dir: src/boot_agents
+  url: git@github.com:AndreaCensi/boot_agents.git
+  branch: env_fault
+
+- dir: src/quickapp
+  url: git@github.com:AndreaCensi/quickapp.git
+  branch: env_fault
+
+- dir: src/boot_servo_demo
+  url: git@github.com:AndreaCensi/boot_servo_demo.git
+  branch: env_fault
+
+- dir: src/astatsa
+  url: git@github.com:AndreaCensi/astatsa.git
+  branch: env_fault
+
+- dir: src/yc1304
+  url: git@github.com:AndreaCensi/yc1304.git
+  branch: env_fault
+
+# - dir: src/caltech_youbot
+#   url: git@github.com:AndreaCensi/caltech_youbot.git
+#   branch: env_fault
+
+# - dir: src/vehicles_murraylab
+#   url: 192.168.1.1:/var/repo/vehicles_murraylab.git
+#   branch: env_fault
+
+# - dir: src/cob_common
+#   url: https://github.com/ipa320/cob_common.git
+#   branch: electric_dev
+
+
+- dir: src/decent_logs
+  url: git@github.com:AndreaCensi/decent_logs.git
+  branch: env_fault
+
+- dir: src/rawlogs
+  url: git@github.com:AndreaCensi/rawlogs.git
+  branch: env_fault
+
+- dir: datasets/dataset_turtle_dvs
+  url: git@github.com:AndreaCensi/dataset_turtle_dvs.git
+  branch: env_fault
+
+- dir: src/comptests
+  url: git@github.com:AndreaCensi/comptests.git
+  branch: env_fault
+
+- dir: src/system_cmd
+  url: git@github.com:AndreaCensi/system_cmd.git
+  branch: env_fault
