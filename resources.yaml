@@ -102,3 +102,7 @@
 - dir: src/system_cmd
   url: git@github.com:AndreaCensi/system_cmd.git
   branch: env_fault
+
+- dir: src/procgraph_rawseeds
+  url: git@github.com:AndreaCensi/procgraph_rawseeds.git
+  branch: env_fault
