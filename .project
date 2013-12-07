@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1366928929322</id>
+			<id>1378473235493</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -25,7 +25,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1366928929322</id>
+			<id>1378473235493</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
@@ -34,7 +34,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1366928929323</id>
+			<id>1378473235494</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -43,7 +43,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1366928929323</id>
+			<id>1378473235495</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -52,7 +52,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1366928929324</id>
+			<id>1378473235496</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -61,7 +61,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1366928929325</id>
+			<id>1378473235497</id>
 			<name></name>
 			<type>22</type>
 			<matcher>
@@ -70,7 +70,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1366928929325</id>
+			<id>1378473235497</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
@@ -79,7 +79,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1366928929326</id>
+			<id>1378473235499</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -88,7 +88,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1366928929327</id>
+			<id>1378473235500</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -97,7 +97,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1366928929328</id>
+			<id>1378473235501</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -106,12 +106,21 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1366928929328</id>
+			<id>1378473235502</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-dist</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1378473235503</id>
+			<name></name>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-deploy</arguments>
 			</matcher>
 		</filter>
 	</filteredResources>

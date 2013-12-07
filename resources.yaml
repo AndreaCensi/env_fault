@@ -2,10 +2,6 @@
 - dir: .
   url: git@github.com:AndreaCensi/env_fault.git
 
-- dir: src/latex_gen
-  url: git@github.com:AndreaCensi/latex_gen.git
-  branch: env_fault
-
 - dir: src/contracts
   url: git@github.com:AndreaCensi/contracts.git
   branch: env_fault
@@ -22,6 +18,10 @@
   url: git@github.com:AndreaCensi/procgraph.git
   branch: env_fault
 
+- dir: src/latex_gen
+  url: git@github.com:AndreaCensi/latex_gen.git
+  branch: env_fault
+
 - dir: src/reprep
   url: git@github.com:AndreaCensi/reprep.git
   branch: env_fault
@@ -30,9 +30,14 @@
   url: git@github.com:AndreaCensi/conf_tools.git
   branch: env_fault
 
+- dir: src/quickapp
+  url: git@github.com:AndreaCensi/quickapp.git
+  branch: env_fault
+
 - dir: src/boot_olympics
   url: git@github.com:AndreaCensi/boot_olympics.git
   branch: env_fault
+
 
 - dir: src/rosstream2boot
   url: git@github.com:AndreaCensi/rosstream2boot.git
@@ -52,14 +57,6 @@
 
 - dir: src/boot_agents
   url: git@github.com:AndreaCensi/boot_agents.git
-  branch: env_fault
-
-- dir: src/quickapp
-  url: git@github.com:AndreaCensi/quickapp.git
-  branch: env_fault
-
-- dir: src/boot_servo_demo
-  url: git@github.com:AndreaCensi/boot_servo_demo.git
   branch: env_fault
 
 - dir: src/astatsa
@@ -91,10 +88,6 @@
   url: git@github.com:AndreaCensi/rawlogs.git
   branch: env_fault
 
-- dir: datasets/dataset_turtle_dvs
-  url: git@github.com:AndreaCensi/dataset_turtle_dvs.git
-  branch: env_fault
-
 - dir: src/comptests
   url: git@github.com:AndreaCensi/comptests.git
   branch: env_fault
@@ -105,4 +98,28 @@
 
 - dir: src/procgraph_rawseeds
   url: git@github.com:AndreaCensi/procgraph_rawseeds.git
+  branch: env_fault
+
+- dir: src/hdflogs
+  url: git@github.com:AndreaCensi/hdflogs.git
+  branch: env_fault
+
+- dir: datasets/dataset_turtle_dvs
+  url: git@github.com:AndreaCensi/dataset_turtle_dvs.git
+  branch: env_fault
+
+- dir: datasets/dataset_rawseeds
+  url: git@github.com:AndreaCensi/dataset_rawseeds.git
+  branch: env_fault
+
+- dir: datasets/dataset_caltech_landroid
+  url: git@github.com:AndreaCensi/dataset_caltech_landroid.git
+  branch: env_fault
+
+- dir: datasets/dataset_caltech_er1
+  url: git@github.com:AndreaCensi/dataset_caltech_er1.git
+  branch: env_fault
+
+- dir: datasets/dataset_caltech_unicorn
+  url: git@github.com:AndreaCensi/dataset_caltech_unicorn.git
   branch: env_fault

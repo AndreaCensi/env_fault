@@ -13,18 +13,9 @@
 <path>/env_fault/src/quickapp/src</path>
 <path>/env_fault/src/reprep/src</path>
 <path>/env_fault/src/astatsa/src</path>
-<path>/env_fault/src/astatsa/src</path>
 <path>/env_fault/src/boot_agents/src</path>
 <path>/env_fault/src/boot_olympics/src</path>
-<path>/env_fault/src/compmake/src</path>
-<path>/env_fault/src/conf_tools/src</path>
-<path>/env_fault/src/contracts/src</path>
-<path>/env_fault/src/geometry/src</path>
 <path>/env_fault/src/latex_gen/src</path>
-<path>/env_fault/src/procgraph/src</path>
-<path>/env_fault/src/quickapp/src</path>
-<path>/env_fault/src/rcl/src</path>
-<path>/env_fault/src/reprep/src</path>
 <path>/env_fault/src/ros_node_utils/src</path>
 <path>/env_fault/src/rosstream2boot/src</path>
 <path>/env_fault/src/vehicles/src</path>
@@ -34,5 +25,8 @@
 <path>/env_fault/src/comptests/src</path>
 <path>/env_fault/src/system_cmd/src</path>
 <path>/env_fault/src/hdflogs/src</path>
+<path>/${PROJECT_DIR_NAME}/datasets/dataset_rawseeds/src</path>
+<path>/${PROJECT_DIR_NAME}/datasets/dataset_caltech_er1/src</path>
+<path>/${PROJECT_DIR_NAME}/src/procgraph_rawseeds</path>
 </pydev_pathproperty>
 </pydev_project>

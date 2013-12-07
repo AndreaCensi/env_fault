@@ -20,3 +20,8 @@ system_cmd
 vehicles
 yc1304
 procgraph_rawseeds
+hdflogs
+dataset_caltech_er1
+dataset_caltech_landroid
+dataset_caltech_unicorn
+dataset_rawseeds
