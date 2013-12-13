@@ -123,3 +123,7 @@
 - dir: datasets/dataset_caltech_unicorn
   url: git@github.com:AndreaCensi/dataset_caltech_unicorn.git
   branch: env_fault
+
+- dir: src/fd1312
+  url: git@github.com:AndreaCensi/fd1312.git
+  branch: env_fault
