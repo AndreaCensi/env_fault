@@ -27,6 +27,6 @@
 <path>/env_fault/src/hdflogs/src</path>
 <path>/${PROJECT_DIR_NAME}/datasets/dataset_rawseeds/src</path>
 <path>/${PROJECT_DIR_NAME}/datasets/dataset_caltech_er1/src</path>
-<path>/${PROJECT_DIR_NAME}/src/procgraph_rawseeds</path>
+<path>/${PROJECT_DIR_NAME}/src/procgraph_rawseeds/src</path>
 </pydev_pathproperty>
 </pydev_project>
