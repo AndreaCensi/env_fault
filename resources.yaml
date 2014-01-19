@@ -123,6 +123,14 @@
   url: git@github.com:AndreaCensi/dataset_caltech_unicorn.git
   branch: env_fault
 
-- dir: src/fd1312
-  url: git@github.com:AndreaCensi/fd1312.git
+- dir: src/fadus
+  url: git@github.com:AndreaCensi/fadus.git
+  branch: env_fault
+
+- dir: docs/14-fault
+  url: git@github.com:AndreaCensi/14-fault.git
+  branch: env_fault
+
+- dir: docs/writingtools
+  url: git@github.com:AndreaCensi/writingtools.git
   branch: env_fault
