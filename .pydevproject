@@ -27,5 +27,6 @@
 <path>/${PROJECT_DIR_NAME}/datasets/dataset_caltech_er1/src</path>
 <path>/${PROJECT_DIR_NAME}/src/procgraph_rawseeds/src</path>
 <path>/${PROJECT_DIR_NAME}/src/fadus/src</path>
+<path>/${PROJECT_DIR_NAME}/src/rcl/src</path>
 </pydev_pathproperty>
 </pydev_project>
