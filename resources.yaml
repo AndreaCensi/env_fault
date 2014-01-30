@@ -139,7 +139,7 @@
   url: git@github.com:AndreaCensi/rcl.git
   branch: env_dvsd
 
-- dir: src/vehicleS_murraylab
+- dir: src/vehicles_murraylab
   url: git@github.com:AndreaCensi/vehicles_murraylab.git
-  branche: env_fault
+  branch: env_fault
   
