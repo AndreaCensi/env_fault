@@ -1,0 +1,1 @@
+starcluster -c main.starcluster.config  $*
