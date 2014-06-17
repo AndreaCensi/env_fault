@@ -2,3 +2,4 @@ environment.sh
 deploy
 .compmake_history.txt
 out-compmake-tests
+.apdisk
