@@ -3,3 +3,4 @@ deploy
 .compmake_history.txt
 out-compmake-tests
 src/memos
+.apdisk

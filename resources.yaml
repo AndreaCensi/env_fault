@@ -123,6 +123,14 @@
   url: git@github.com:AndreaCensi/dataset_caltech_unicorn.git
   branch: env_fault
 
+- dir: datasets/dataset_semantic_mapping
+  url: git@github.com:AndreaCensi/dataset_semantic_mapping.git
+  branch: env_fault
+
+- dir: datasets/dataset_statacenter
+  url: git@github.com:AndreaCensi/dataset_statacenter.git
+  branch: env_fault
+ 
 - dir: src/fadus
   url: git@github.com:AndreaCensi/fadus.git
   branch: env_fault
