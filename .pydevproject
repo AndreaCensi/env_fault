@@ -28,5 +28,6 @@
 <path>/${PROJECT_DIR_NAME}/src/procgraph_rawseeds/src</path>
 <path>/${PROJECT_DIR_NAME}/src/fadus/src</path>
 <path>/${PROJECT_DIR_NAME}/src/rcl/src</path>
+<path>/${PROJECT_DIR_NAME}/src/memos/src</path>
 </pydev_pathproperty>
 </pydev_project>

@@ -143,3 +143,6 @@
   url: git@github.com:AndreaCensi/vehicles_murraylab.git
   branch: env_fault
   
+- dir: src/memos
+  url: git@github.com:AndreaCensi/memos.git
+  branch: env_fault

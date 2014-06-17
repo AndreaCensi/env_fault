@@ -1,0 +1,80 @@
+root = /data/work/scm/environments/env_fault/src
+root = ssh://heli/scm/environments/env_fault/src
+
+ignore = Name *.mp4-active.avi 
+ignore = Name *.timestamps
+ignore = Name *.frame.png
+ignore = Name *.key
+ignore = Name src-third
+
+ignore = Name workspaces
+ignore = Name groovy
+ignore = Name homebrew
+ignore = Name groovy_underlay
+
+
+ignore = Name out-*
+ignore = Name data-*
+ignore = Name data
+ignore = Name data1
+ignore = Name data2
+ignore = Name data3
+ignore = Name *.aer.txt
+ignore = Name *.aedata
+
+ignore = Name website
+ignore = Name apidocs
+# This is for sphinx-autogen
+ignore = Name api 
+ignore = Name build
+ignore = Name coverage_information
+ignore = Name *,cover
+ignore = Name .git
+ignore = Name *.egg*
+
+ignore = Name CMakeFiles
+ignore = Name CMakeCache.txt
+ignore = Name cmake_install.cmake
+
+ignore = Name *.html*
+ignore = Name *.transferred
+ignore = Name test_cases
+ignore = Name 2011*
+ignore = Name signals
+ignore = Name out
+ignore = Name out.*
+ignore = Name *.out
+ignore = Name calib_data
+
+ignore = Name deploy
+ignore = Name EPD-7.1
+
+
+ignore = Name *.pickle
+ignore = Name *.h5
+ignore = Name *.mat
+ignore = Name *.mp4
+
+ignore = Name states
+ignore = Name reports
+
+ignore = Name compmake_storage
+ignore = Name videos
+ignore = Name build
+ignore = Name *pyc
+ignore = Name *pgc
+ignore = Name *pickle
+# For ROS
+ignore = Name bootstrapping_adapter
+ignore = Name bootstrapping_adapter/Makefile
+ignore = Name srv_gen
+ignore = Name msg_gen
+ignore = Name _BootstrappingCommands.py
+ignore = Name _BootstrappingObservations.py
+
+
+
+ignore = Name sets
+ignore = Name environment.sh
+ignore = Name .*
+
