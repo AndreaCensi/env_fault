@@ -29,5 +29,7 @@
 <path>/${PROJECT_DIR_NAME}/src/fadus/src</path>
 <path>/${PROJECT_DIR_NAME}/src/rcl/src</path>
 <path>/${PROJECT_DIR_NAME}/src/memos/src</path>
+<path>/${PROJECT_DIR_NAME}/src/ublocks/src</path>
+<path>/${PROJECT_DIR_NAME}/src/typsy/src</path>
 </pydev_pathproperty>
 </pydev_project>
