@@ -31,5 +31,7 @@
 <path>/${PROJECT_DIR_NAME}/src/memos/src</path>
 <path>/${PROJECT_DIR_NAME}/src/ublocks/src</path>
 <path>/${PROJECT_DIR_NAME}/src/typsy/src</path>
+<path>/${PROJECT_DIR_NAME}/datasets/dataset_turtle_dvs/src</path>
+<path>/${PROJECT_DIR_NAME}/src/diffeo/src</path>
 </pydev_pathproperty>
 </pydev_project>
