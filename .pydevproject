@@ -33,5 +33,7 @@
 <path>/${PROJECT_DIR_NAME}/src/typsy/src</path>
 <path>/${PROJECT_DIR_NAME}/datasets/dataset_turtle_dvs/src</path>
 <path>/${PROJECT_DIR_NAME}/src/diffeo/src</path>
+<path>/${PROJECT_DIR_NAME}/src/diffeoplan/src</path>
+<path>/${PROJECT_DIR_NAME}/src/deps_display/src</path>
 </pydev_pathproperty>
 </pydev_project>

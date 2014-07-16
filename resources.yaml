@@ -1,4 +1,3 @@
-
 - dir: .
   url: git@github.com:AndreaCensi/env_fault.git
 
@@ -158,3 +157,12 @@
 - dir: src/diffeo
   url: git@github.com:AndreaCensi/diffeo.git
   branch: env_fault
+
+- dir: src/diffeoplan
+  url: git@github.com:AndreaCensi/diffeoplan.git
+  branch: env_fault
+
+- dir: src/deps_display
+  url: git@github.com:AndreaCensi/deps_display.git
+  branch: env_fault
+  
