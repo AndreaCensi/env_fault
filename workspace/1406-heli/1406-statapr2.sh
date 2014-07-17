@@ -1,7 +1,10 @@
-#source ../../environment.sh
 #!/bin/bash
 set -e
 
 export DATASETS=$FAULT_ROOT/datasets
 
-nice -n 10 fadus  run  -o out-1406-statapr2  --instances "statapr2_all" --strategies "*" --console
+instances=statapr2_one
+out=tmp-andrea/out-1406-statapr2_one
+strategies='quick'
+
+nice -n 10 fadus  run  -o $out --instances "$instances" --strategies "$strategies" --console

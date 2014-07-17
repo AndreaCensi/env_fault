@@ -4,3 +4,8 @@ deploy
 out-compmake-tests
 src/memos
 .apdisk
+out
+workspace/1406-heli/tmp-andrea
+out-*
+.coverage
+.nfs*

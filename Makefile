@@ -1,6 +1,20 @@
 
-comptests:
-	comptests --exclude learner,nspkg,procgraph_ros,bo_hidden --contracts --console $FAULT_SRC
+comptests-src:
+	comptests -o out/comptests-src --exclude learner,nspkg,procgraph_ros,bo_hidden --contracts --console ${FAULT_SRC}
+
+comptests-src-go:
+	comptests -o out/comptests-src --exclude learner,nspkg,procgraph_ros,bo_hidden --contracts -c "pmake recurse=1" ${FAULT_SRC}
+
+comptests-datasets:
+	comptests -o out/comptests-datasets --contracts -c "pmake recurse=1" --console  ${FAULT_ROOT}/datasets/
+
+comptests-datasets-go:
+	comptests -o out/comptests-datasets --contracts -c "pmake recurse=1" --contracts -c "pmake recurse=1" ${FAULT_ROOT}/datasets/
+
+# exclude dataset_semantic_mapping
+comptests-datasets-part:
+	comptests -o out/comptests-datasets-part --exclude dataset_semantic_mapping --contracts -c "pmake recurse=1" --console  ${FAULT_ROOT}/datasets/
+
 
 deps-find:
 	deps-find --resources=resources.yaml --output=deps/deps.yaml
