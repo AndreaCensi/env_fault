@@ -4,3 +4,6 @@ deploy
 out-compmake-tests
 src/memos
 .apdisk
+src/diffeoplan
+src/deps_display
+out-*
