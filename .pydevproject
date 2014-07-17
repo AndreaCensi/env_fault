@@ -35,5 +35,9 @@
 <path>/${PROJECT_DIR_NAME}/src/diffeo/src</path>
 <path>/${PROJECT_DIR_NAME}/src/diffeoplan/src</path>
 <path>/${PROJECT_DIR_NAME}/src/deps_display/src</path>
+<path>/${PROJECT_DIR_NAME}/datasets/dataset_caltech_landroid/src</path>
+<path>/${PROJECT_DIR_NAME}/datasets/dataset_caltech_unicorn/src</path>
+<path>/${PROJECT_DIR_NAME}/datasets/dataset_semantic_mapping/src</path>
+<path>/${PROJECT_DIR_NAME}/datasets/dataset_statacenter/src</path>
 </pydev_pathproperty>
 </pydev_project>

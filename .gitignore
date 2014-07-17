@@ -9,3 +9,5 @@ workspace/1406-heli/tmp-andrea
 out-*
 .coverage
 .nfs*
+src/diffeoplan
+src/deps_display
