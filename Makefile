@@ -13,7 +13,8 @@ comptests-datasets-go:
 
 # exclude dataset_semantic_mapping
 comptests-datasets-part:
-	comptests -o out/comptests-datasets-part --exclude dataset_semantic_mapping --contracts -c "pmake recurse=1" --console  ${FAULT_ROOT}/datasets/
+	rm -rf out/comptests-datasets-part
+	comptests -o out/comptests-datasets-part --exclude dataset_semantic_mapping,dataset_statacenter --contracts -c "pmake recurse=1" --console  ${FAULT_ROOT}/datasets/
 
 
 deps-find:
