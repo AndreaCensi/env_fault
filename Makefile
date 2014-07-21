@@ -3,19 +3,26 @@ comptests-src:
 	comptests -o out/comptests-src --exclude learner,nspkg,procgraph_ros,bo_hidden --contracts --console ${FAULT_SRC}
 
 comptests-src-go:
-	comptests -o out/comptests-src --exclude learner,nspkg,procgraph_ros,bo_hidden --contracts -c "pmake recurse=1" ${FAULT_SRC}
+	comptests -o out/comptests-src --exclude learner,nspkg,procgraph_ros,bo_hidden --contracts -c "parmake recurse=1" ${FAULT_SRC}
 
 comptests-datasets:
-	comptests -o out/comptests-datasets --contracts -c "pmake recurse=1" --console  ${FAULT_ROOT}/datasets/
+	comptests -o out/comptests-datasets --contracts -c "parmake recurse=1" --console  ${FAULT_ROOT}/datasets/
 
 comptests-datasets-go:
-	comptests -o out/comptests-datasets --contracts -c "pmake recurse=1" --contracts -c "pmake recurse=1" ${FAULT_ROOT}/datasets/
+	comptests -o out/comptests-datasets --contracts -c "parmake recurse=1" --contracts -c "parmake recurse=1" ${FAULT_ROOT}/datasets/
 
 # exclude dataset_semantic_mapping
 comptests-datasets-part:
 	rm -rf out/comptests-datasets-part
-	comptests -o out/comptests-datasets-part --exclude dataset_semantic_mapping,dataset_statacenter --contracts -c "pmake recurse=1" --console  ${FAULT_ROOT}/datasets/
+	comptests -o out/comptests-datasets-part --exclude dataset_semantic_mapping,dataset_statacenter --contracts -c "parmake recurse=1" --console  ${FAULT_ROOT}/datasets/
 
+
+comptests-src-boot:
+	comptests -o out/comptests-src-boot --exclude learner,nspkg,procgraph_ros,bo_hidden  --contracts --console bootstrapping_olympics
+
+
+comptests-src-boot-vehicles:
+	comptests -o out/comptests-src-boot-vehicles --exclude learner,nspkg,procgraph_ros,bo_hidden  --contracts --console bootstrapping_olympics vehicles vehicles_boot procgraph_vehicles vehicles_cairo
 
 deps-find:
 	deps-find --resources=resources.yaml --output=deps/deps.yaml
