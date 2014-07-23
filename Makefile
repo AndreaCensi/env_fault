@@ -20,6 +20,8 @@ comptests-datasets-part:
 comptests-src-boot:
 	comptests -o out/comptests-src-boot --exclude learner,nspkg,procgraph_ros,bo_hidden  --contracts --console bootstrapping_olympics
 
+comptests-src-bvapps:
+	comptests -o out/comptests-src-bvapps   --contracts --console bvapps
 
 comptests-src-boot-vehicles:
 	comptests -o out/comptests-src-boot-vehicles --exclude learner,nspkg,procgraph_ros,bo_hidden  --contracts --console bootstrapping_olympics vehicles vehicles_boot procgraph_vehicles vehicles_cairo
