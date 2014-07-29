@@ -18,13 +18,17 @@ comptests-datasets-part:
 
 
 comptests-src-boot:
-	comptests -o out/comptests-src-boot --exclude learner,nspkg,procgraph_ros,bo_hidden  --contracts --console bootstrapping_olympics
+	comptests -o out/comptests-src-boot  --nonose  --contracts --console bootstrapping_olympics
+
+
+comptests-src-boot_manager:
+	comptests -o out/comptests-src-boot_manager  --nonose  --contracts --console boot_manager
 
 comptests-src-bvapps:
 	comptests -o out/comptests-src-bvapps   --contracts --console bvapps
 
 comptests-src-boot-vehicles:
-	comptests -o out/comptests-src-boot-vehicles --exclude learner,nspkg,procgraph_ros,bo_hidden  --contracts --console bootstrapping_olympics vehicles vehicles_boot procgraph_vehicles vehicles_cairo
+	comptests -o out/comptests-src-boot-vehicles   --contracts --console bootstrapping_olympics vehicles vehicles_boot procgraph_vehicles vehicles_cairo
 
 deps-find:
 	deps-find --resources=resources.yaml --output=deps/deps.yaml
