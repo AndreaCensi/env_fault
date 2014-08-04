@@ -1,9 +1,23 @@
 
+comptests-src-nose:
+	comptests -o out/comptests-src-nose --nocomp --exclude learner,nspkg,procgraph_ros,bo_hidden --contracts --console ${FAULT_SRC}
+
+
 comptests-src:
 	comptests -o out/comptests-src --exclude learner,nspkg,procgraph_ros,bo_hidden --contracts --console ${FAULT_SRC}
 
 comptests-src-go:
 	comptests -o out/comptests-src --exclude learner,nspkg,procgraph_ros,bo_hidden --contracts -c "parmake recurse=1" ${FAULT_SRC}
+
+
+comptests-bdse:
+	rm -rf out/comptests-bdse
+	comptests -o out/comptests-bdse  --contracts --nonose --console bdse bgds boot_agents_bgds boot_agents_bgds
+
+comptests-bootagents:
+	rm -rf out/comptests-bootagents
+	comptests -o out/comptests-bootagents  --contracts --nonose --console boot_agents
+
 
 comptests-datasets:
 	comptests -o out/comptests-datasets --contracts -c "parmake recurse=1" --console  ${FAULT_ROOT}/datasets/
