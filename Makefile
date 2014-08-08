@@ -24,6 +24,9 @@ comptests-src-boot:
 comptests-src-boot_manager:
 	comptests -o out/comptests-src-boot_manager  --nonose  --contracts --console boot_manager
 
+comptests-src-boot_manager-go:
+	comptests -o out/comptests-src-boot_manager  --nonose  --contracts -c "parmake; parmake; parmake recurse=1" boot_manager
+
 comptests-src-bvapps:
 	comptests -o out/comptests-src-bvapps   --contracts --console bvapps
 
