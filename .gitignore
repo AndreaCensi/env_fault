@@ -11,3 +11,6 @@ out-*
 .nfs*
 src/diffeoplan
 src/deps_display
+src/nmcon
+deploy3
+.settings

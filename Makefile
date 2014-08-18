@@ -12,11 +12,21 @@ comptests-src-go:
 
 comptests-bdse:
 	rm -rf out/comptests-bdse
-	comptests -o out/comptests-bdse  --contracts --nonose --console bdse bgds boot_agents_bgds boot_agents_bgds
+	comptests -o out/comptests-bdse  --contracts --nonose --console bdse  boot_agents_bdse
+
+
+comptests-nmcon:
+	rm -rf out/comptests-nmcon
+	comptests -o out/comptests-nmcon  --contracts --nonose --console nmcon
+
+comptests-bgds:
+	rm -rf out/comptests-bgds
+	comptests -o out/comptests-bgds  --contracts --nonose --console bgds boot_agents_bgds
+	
 
 comptests-bootagents:
 	rm -rf out/comptests-bootagents
-	comptests -o out/comptests-bootagents  --contracts --nonose --console boot_agents
+	comptests -o out/comptests-bootagents  --contracts --nonose --console boot_agents 
 
 
 comptests-datasets:
