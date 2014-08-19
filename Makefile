@@ -12,11 +12,21 @@ comptests-src-go:
 
 comptests-bdse:
 	rm -rf out/comptests-bdse
-	comptests -o out/comptests-bdse  --contracts --nonose --console bdse bgds boot_agents_bgds boot_agents_bgds
+	comptests -o out/comptests-bdse  --contracts --nonose --console bdse  boot_agents_bdse
+
+
+comptests-nmcon:
+	rm -rf out/comptests-nmcon
+	comptests -o out/comptests-nmcon  --contracts --nonose --console nmcon
+
+comptests-bgds:
+	rm -rf out/comptests-bgds
+	comptests -o out/comptests-bgds  --contracts --nonose --console bgds boot_agents_bgds
+	
 
 comptests-bootagents:
 	rm -rf out/comptests-bootagents
-	comptests -o out/comptests-bootagents  --contracts --nonose --console boot_agents
+	comptests -o out/comptests-bootagents  --contracts --nonose --console boot_agents 
 
 
 comptests-datasets:
@@ -32,11 +42,11 @@ comptests-datasets-part:
 
 
 comptests-src-boot:
-	comptests -o out/comptests-src-boot  --nonose  --contracts --console bootstrapping_olympics
+	comptests -o out/comptests-src-boot  --nonose  --contracts --console bootstrapping_olympics boot_manager
 
 
 comptests-src-boot_manager:
-	comptests -o out/comptests-src-boot_manager  --nonose  --contracts --console boot_manager
+	comptests -o out/comptests-src-boot_manager  --nonose  --contracts --console bootstrapping_olympics boot_manager
 
 comptests-src-boot_manager-go:
 	comptests -o out/comptests-src-boot_manager  --nonose  --contracts -c "parmake; parmake; parmake recurse=1" boot_manager

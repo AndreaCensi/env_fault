@@ -166,3 +166,8 @@
   url: git@github.com:AndreaCensi/deps_display.git
   branch: env_fault
   
+
+
+- dir: src/nmcon
+  url: git@github.com:AndreaCensi/nmcon.git
+  branch: env_fault

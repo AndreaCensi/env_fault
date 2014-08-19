@@ -40,5 +40,6 @@
 <path>/${PROJECT_DIR_NAME}/datasets/dataset_semantic_mapping/src</path>
 <path>/${PROJECT_DIR_NAME}/datasets/dataset_statacenter/src</path>
 <path>/${PROJECT_DIR_NAME}/src/bvapps/src</path>
+<path>/${PROJECT_DIR_NAME}/src/nmcon/src</path>
 </pydev_pathproperty>
 </pydev_project>
