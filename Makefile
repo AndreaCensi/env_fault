@@ -42,11 +42,11 @@ comptests-datasets-part:
 
 
 comptests-src-boot:
-	comptests -o out/comptests-src-boot  --nonose  --contracts --console bootstrapping_olympics
+	comptests -o out/comptests-src-boot  --nonose  --contracts --console bootstrapping_olympics boot_manager
 
 
 comptests-src-boot_manager:
-	comptests -o out/comptests-src-boot_manager  --nonose  --contracts --console boot_manager
+	comptests -o out/comptests-src-boot_manager  --nonose  --contracts --console bootstrapping_olympics boot_manager
 
 comptests-src-bvapps:
 	comptests -o out/comptests-src-bvapps   --contracts --console bvapps
