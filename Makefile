@@ -71,3 +71,9 @@ comptests-datasets-part:
 	$(rm) -r -I out/comptests-datasets-part
 	comptests -o out/comptests-datasets-part --exclude dataset_semantic_mapping,dataset_statacenter --contracts -c "parmake recurse=1" --console  ${FAULT_ROOT}/datasets/
 
+
+
+oestats:
+	mkdir -p out/oestats
+	$(rm) -r -I out/oestats
+	oestats -o out/oestats --console
