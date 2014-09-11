@@ -86,3 +86,17 @@ oestats:
 # 	mkdir -p out/oestats
 # 	$(rm) -r -I out/oestats
 # 	oestats -o out/oestats --contracts --console
+	# mkdir -p out/oestats
+	# $(rm) -r -I out/oestats
+	# oestats -o out/oestats --console
+
+nmcon:
+	mkdir -p out/nmcon
+	$(rm) -r -I out/nmcon
+	nmcon -o out/nmcon --console
+
+
+nmcon2:
+	mkdir -p out/nmcon
+	$(rm) -r -I out/nmcon
+	nmcon -o out/nmcon -c "make; make kmama-neuro2-noise1-kmama-neuro2-noise2-ep000-rep-write"
