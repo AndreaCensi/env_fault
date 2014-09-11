@@ -1,4 +1,4 @@
-rm=grm
+rm=rm
 
 comptests-src-nose:
 	mkdir -p out/comptests-src-nose
@@ -77,6 +77,12 @@ oe1:
 	oe1406 -o out/oe1 --console
 
 oestats:
-	mkdir -p out/oestats
-	$(rm) -r -I out/oestats
-	oestats -o out/oestats --console
+	mkdir -p /mnt/boot-wd4/oestats
+	$(rm) -r -I  /mnt/boot-wd4/oestats
+	oestats -o /mnt/boot-wd4/oestats --console
+
+
+# oestats:
+# 	mkdir -p out/oestats
+# 	$(rm) -r -I out/oestats
+# 	oestats -o out/oestats --contracts --console
