@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/datasets/dataset_caltech_er1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/datasets/dataset_caltech_landroid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/datasets/dataset_caltech_unicorn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/datasets/dataset_rawseeds" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/datasets/dataset_semantic_mapping" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/datasets/dataset_statacenter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/datasets/dataset_turtle_dvs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs/14-fault" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs/writingtools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/astatsa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/boot_agents" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/boot_olympics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bvapps" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/compmake" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/comptests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/conf_tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/decent_logs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/deps_display" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/diffeo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/diffeoplan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/fadus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/geometry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/hdflogs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/latex_gen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/memos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/nmcon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/procgraph" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/quickapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/rawlogs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/rcl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/reprep" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ros_node_utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/rosstream2boot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/system_cmd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/vehicles" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/vehicles_murraylab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/yc1304" vcs="Git" />
+  </component>
+</project>
+

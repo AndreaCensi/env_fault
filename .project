@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1378473235493</id>
+			<id>1412524868458</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -25,7 +25,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235493</id>
+			<id>1412524868459</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
@@ -34,7 +34,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235494</id>
+			<id>1412524868461</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -43,7 +43,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235495</id>
+			<id>1412524868463</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -52,7 +52,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235496</id>
+			<id>1412524868465</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -61,7 +61,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235497</id>
+			<id>1412524868467</id>
 			<name></name>
 			<type>22</type>
 			<matcher>
@@ -70,7 +70,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235497</id>
+			<id>1412524868469</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
@@ -79,7 +79,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235499</id>
+			<id>1412524868472</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -88,7 +88,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235500</id>
+			<id>1412524868474</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -97,7 +97,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235501</id>
+			<id>1412524868476</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -106,7 +106,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235502</id>
+			<id>1412524868478</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -115,12 +115,39 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1378473235503</id>
+			<id>1412524868480</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-deploy</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1412524868482</id>
+			<name></name>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-out-*</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1412524868484</id>
+			<name></name>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-out</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1412524868487</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-out_</arguments>
 			</matcher>
 		</filter>
 	</filteredResources>
