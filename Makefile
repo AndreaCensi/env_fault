@@ -1,4 +1,4 @@
-rm=grm
+rm=rm
 
 comptests-src-nose:
 	mkdir -p out/comptests-src-nose
@@ -71,12 +71,24 @@ comptests-datasets-part:
 	$(rm) -r -I out/comptests-datasets-part
 	comptests -o out/comptests-datasets-part --exclude dataset_semantic_mapping,dataset_statacenter --contracts -c "parmake recurse=1" --console  ${FAULT_ROOT}/datasets/
 
-
+oe1:
+	mkdir -p out/oe1
+	rm -I -r  out/oe1
+	oe1406 -o out/oe1 --console
 
 oestats:
-	mkdir -p out/oestats
-	$(rm) -r -I out/oestats
-	oestats -o out/oestats --console
+	mkdir -p /mnt/boot-wd4/oestats
+	$(rm) -r -I  /mnt/boot-wd4/oestats
+	oestats -o /mnt/boot-wd4/oestats --console
+
+
+# oestats:
+# 	mkdir -p out/oestats
+# 	$(rm) -r -I out/oestats
+# 	oestats -o out/oestats --contracts --console
+	# mkdir -p out/oestats
+	# $(rm) -r -I out/oestats
+	# oestats -o out/oestats --console
 
 nmcon:
 	mkdir -p out/nmcon
