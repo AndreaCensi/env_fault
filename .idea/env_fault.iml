@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/astatsa/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/boot_agents/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/boot_olympics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/bvapps/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/compmake/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/comptests/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/conf_tools/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/contracts/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/decent_logs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/deps_display/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/diffeo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/diffeoplan/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/fadus/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/geometry/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/hdflogs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/memos/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/nmcon/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/procgraph/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/quickapp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rawlogs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rcl/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/reprep/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ros_node_utils/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rosstream2boot/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/system_cmd/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ublocks/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/vehicles/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/yc1304/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy3" />
+      <excludeFolder url="file://$MODULE_DIR$/out" />
+      <excludeFolder url="file://$MODULE_DIR$/out-comptests" />
+      <excludeFolder url="file://$MODULE_DIR$/out-nmcon" />
+      <excludeFolder url="file://$MODULE_DIR$/out_test_controlfield.html_resources" />
+      <excludeFolder url="file://$MODULE_DIR$/out_test_controlfield_resources" />
+      <excludeFolder url="file://$MODULE_DIR$/src/boot_agents/src/BootAgents.egg-info" />
+      <excludeFolder url="file://$MODULE_DIR$/src/boot_olympics/out-compmake-tests" />
+      <excludeFolder url="file://$MODULE_DIR$/src/boot_olympics/out-comptests" />
+      <excludeFolder url="file://$MODULE_DIR$/src/deploy" />
+      <excludeFolder url="file://$MODULE_DIR$/src/out-compmake-tests" />
+      <excludeFolder url="file://$MODULE_DIR$/src/out-comptests" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vehicles/attic" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vehicles/out-comptests" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vehicles/out_test_controlfield.html_resources" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vehicles/py2cairo-1.10.0" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vehicles/test_exp.html_resources" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vehicles/test_smoother.html_resources" />
+      <excludeFolder url="file://$MODULE_DIR$/workspace" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
