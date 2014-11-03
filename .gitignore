@@ -15,3 +15,8 @@ src/nmcon
 deploy3
 .settings
 .noseids
+src/videolang
+test*html*
+src/multyvac-0.4.3
+src/multyvac-0.4.9
+src/multyvac-0.4.9.tar.gz

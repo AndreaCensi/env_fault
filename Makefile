@@ -1,4 +1,6 @@
-rm=rm
+
+-include config.mk
+rm?=rm
 
 comptests-src-nose:
 	mkdir -p out/comptests-src-nose

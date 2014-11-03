@@ -11,12 +11,13 @@ ignore = Name workspaces
 ignore = Name groovy
 ignore = Name homebrew
 ignore = Name groovy_underlay
-
+ignore = Name animations
+ignore = Name 101_ObjectCategories
 
 ignore = Name out-*
 ignore = Name data-*
-ignore = Name data
 ignore = Name data1
+ignore = Name subs
 ignore = Name data2
 ignore = Name data3
 ignore = Name *.aer.txt

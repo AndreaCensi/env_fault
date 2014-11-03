@@ -39,5 +39,10 @@
 <path>/${PROJECT_DIR_NAME}/datasets/dataset_statacenter/src</path>
 <path>/${PROJECT_DIR_NAME}/src/bvapps/src</path>
 <path>/${PROJECT_DIR_NAME}/src/nmcon/src</path>
+<path>/${PROJECT_DIR_NAME}/src/flymap/src</path>
+<path>/${PROJECT_DIR_NAME}/src/multyvac-0.4.3</path>
+<path>/${PROJECT_DIR_NAME}/src/compmake-app-images</path>
+<path>/${PROJECT_DIR_NAME}/src/videolang/src</path>
+<path>/${PROJECT_DIR_NAME}/src/icra15trailer/src</path>
 </pydev_pathproperty>
 </pydev_project>
