@@ -19,11 +19,6 @@
   url: git@github.com:AndreaCensi/comptests.git
   branch: env_fault
 
-- dir: src/icra15trailer
-  url: git@github.mit.edu:censi/icra15trailer.git
-
-- dir: src/videolang
-  url: git@github.mit.edu:censi/videolang.git
 
 - dir: src/geometry
   url: git@github.com:AndreaCensi/geometry.git
@@ -187,3 +182,15 @@
 
 - dir: src/flymap
   url: git@github.com:AndreaCensi/flymap.git
+
+- dir: src/compmake-demo-images
+  url: git@github.com:AndreaCensi/compmake-demo-images.git
+
+- dir: src/compmake-demo-animations
+  url: git@github.com:AndreaCensi/compmake-demo-animations.git
+
+- dir: src/icra15trailer
+  url: git@github.mit.edu:censi/icra15trailer.git
+
+- dir: src/videolang
+  url: git@github.mit.edu:censi/videolang.git

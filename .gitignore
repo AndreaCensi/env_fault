@@ -20,3 +20,7 @@ test*html*
 src/multyvac-0.4.3
 src/multyvac-0.4.9
 src/multyvac-0.4.9.tar.gz
+./compmake.rc
+./config.mk
+./config.mk
+./compmake.rc
