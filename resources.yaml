@@ -194,3 +194,6 @@
 
 - dir: src/videolang
   url: git@github.mit.edu:censi/videolang.git
+
+- dir: src/vrep_demos
+  url:  git@github.mit.edu:censi/vrepsim.git

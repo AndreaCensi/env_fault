@@ -44,5 +44,8 @@
 <path>/${PROJECT_DIR_NAME}/src/compmake-app-images</path>
 <path>/${PROJECT_DIR_NAME}/src/videolang/src</path>
 <path>/${PROJECT_DIR_NAME}/src/icra15trailer/src</path>
+<path>/${PROJECT_DIR_NAME}/src/compmake-demo-images</path>
+<path>/${PROJECT_DIR_NAME}/src/vrep_demos</path>
+<path>/${PROJECT_DIR_NAME}/src/neuro-sysid</path>
 </pydev_pathproperty>
 </pydev_project>
