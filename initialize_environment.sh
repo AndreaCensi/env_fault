@@ -27,7 +27,8 @@ cat ${config}
 echo "Now creating virtual environment (press enter)"
 read
 echo Create a new virtual env for python
-virtualenv --system-site-packages --prompt=${tag} `pwd`/deploy
+# virtualenv --system-site-packages --prompt=${tag} `pwd`/deploy
+venv --system-site-packages `pwd`/deploy
 echo source $\{${tag}_PREFIX\}/bin/activate >> ${config}
 source ${config}
 

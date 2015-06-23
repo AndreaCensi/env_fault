@@ -35,3 +35,5 @@ icra15trailer
 compmake-app-images
 compmake-demo-animations
 compmake-demo-images
+procgraph_optimize
+gvgen

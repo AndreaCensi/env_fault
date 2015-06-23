@@ -10,6 +10,9 @@
   url: git@github.com:AndreaCensi/system_cmd.git
   branch: env_fault
 
+- dir: src/gvgen
+  url: git@github.com:AndreaCensi/gvgen.git
+  branch: env_fault
 
 - dir: src/compmake
   url: git@github.com:AndreaCensi/compmake.git
@@ -173,12 +176,9 @@
   url: git@github.com:AndreaCensi/deps_display.git
   branch: env_fault
   
-
-
 - dir: src/nmcon
   url: git@github.com:AndreaCensi/nmcon.git
   branch: env_fault
-
 
 - dir: src/flymap
   url: git@github.com:AndreaCensi/flymap.git
@@ -194,3 +194,7 @@
 
 - dir: src/videolang
   url: git@github.mit.edu:censi/videolang.git
+
+- dir: src/procgraph_optimize
+  url: git@github.mit.edu:censi/procgraph_optimize.git
+
