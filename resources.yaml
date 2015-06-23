@@ -175,7 +175,7 @@
 - dir: src/deps_display
   url: git@github.com:AndreaCensi/deps_display.git
   branch: env_fault
-  
+
 - dir: src/nmcon
   url: git@github.com:AndreaCensi/nmcon.git
   branch: env_fault
@@ -198,3 +198,5 @@
 - dir: src/procgraph_optimize
   url: git@github.mit.edu:censi/procgraph_optimize.git
 
+- dir: src/vrep_demos
+  url: git@github.mit.edu:censi/vrepsim.git
