@@ -195,6 +195,9 @@
 - dir: src/videolang
   url: git@github.mit.edu:censi/videolang.git
 
+- dir: src/networkx
+  url: git@github.com:AndreaCensi/networkx.git
+
 - dir: src/procgraph_optimize
   url: git@github.mit.edu:censi/procgraph_optimize.git
 
