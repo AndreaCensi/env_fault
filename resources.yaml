@@ -12,7 +12,7 @@
 
 - dir: src/gvgen
   url: git@github.com:AndreaCensi/gvgen.git
-  branch: env_fault
+  branch: master
 
 - dir: src/compmake
   url: git@github.com:AndreaCensi/compmake.git
@@ -203,3 +203,6 @@
 
 - dir: src/vrep_demos
   url: git@github.mit.edu:censi/vrepsim.git
+
+- dir: src/gvgen
+  url: git@github.com:AndreaCensi/gvgen.git
