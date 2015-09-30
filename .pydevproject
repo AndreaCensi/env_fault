@@ -49,5 +49,6 @@
 <path>/${PROJECT_DIR_NAME}/src/compmake-demo-images</path>
 <path>/${PROJECT_DIR_NAME}/src/vrep_demos</path>
 <path>/${PROJECT_DIR_NAME}/src/neuro-sysid</path>
+<path>/${PROJECT_DIR_NAME}/src/mocdp/src</path>
 </pydev_pathproperty>
 </pydev_project>

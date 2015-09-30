@@ -2,7 +2,7 @@
 set -e
 set -x
 
-UPROFILE=unison-to-thinkpad-fault
+UPROFILE=unison-to-ubuntu1404
 mkdir -p ~/.unison/
 rm -f ~/.unison/$UPROFILE.prf
 ln -s $PWD/$UPROFILE.prf ~/.unison/$UPROFILE.prf

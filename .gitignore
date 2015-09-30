@@ -24,3 +24,5 @@ src/multyvac-0.4.9.tar.gz
 ./config.mk
 ./config.mk
 ./compmake.rc
+initialize_environment.sh
+.ipynb_checkpoints

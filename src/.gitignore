@@ -39,3 +39,4 @@ procgraph_optimize
 gvgen
 networkx
 vrep_demos
+mocdp
