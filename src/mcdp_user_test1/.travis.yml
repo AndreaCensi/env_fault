@@ -1,0 +1,47 @@
+
+language: python
+python:
+  # - "2.6"
+  - "2.7"
+  # - "3.2"
+  # - "3.3"
+  # - "3.4"
+  # - "3.5"
+  # - "3.5-dev" # 3.5 development branch
+  # - "pypy"
+# command to install dependencies
+# cache:
+#   directories:
+#     - $HOME/.cache/pip
+install: 
+- "wget https://raw.githubusercontent.com/AndreaCensi/mcdp/master/examples/example-battery/battery.mcdp"
+#- "pip install -vvv --process-dependency-links  --allow-all-external --allow-unverified ConfTools --allow-unverified PyContracts  --allow-unverified QuickApp --allow-unverified RepRep --allow-unverified gvgen  -U PyMCDP"
+- "pip install -vvv PyMCDP"
+- "python -c 'import mocdp; print mocdp.__version__'"
+- "python -c 'import contracts; print contracts.__version__'"
+- "python -c 'import quickapp;  print  quickapp.__version__'"
+- "python -c 'import compmake;  print  compmake.__version__'"
+- "python -c 'import reprep;    print    reprep.__version__'"
+# command to run tests
+script: 
+- "mcdp-solve battery.mcdp '1 hour' '0.1 kg' '1.0 W' "
+- "mcdp-solve battery.mcdp '<1 hour, 0.1 kg, 1.0 W>' "
+- "mcdp-solve --plot battery.mcdp '1 hour' '0.1 kg' '1.0 W' "
+- "mcdp-solve --plot battery.mcdp '<1 hour, 0.1 kg, 1.0 W>' "
+
+# after_failure:
+# - compmake out/comptests -c "ls failed"
+# - compmake out/comptests -c "why failed"
+# - cat emergency.dot
+addons:
+  apt:
+    # sources:
+    # - ubuntu-toolchain-r-test
+    packages:
+    - python-matplotlib
+    - python-numpy
+    - python-yaml
+    # - python-cjson disallowed by Travis!
+    # - python-pil not found on Travis
+    - graphviz # TODO: add check for existence
+ 

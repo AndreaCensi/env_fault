@@ -208,5 +208,5 @@
   url: git@github.com:AndreaCensi/gvgen.git
 
 - dir: src/mocdp
-  url: git@github.com:AndreaCensi/mocdp.git
+  url: git@github.com:AndreaCensi/mcdp.git
 
